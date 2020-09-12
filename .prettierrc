@@ -1,0 +1,23 @@
+{
+	"printWidth": 100,
+	"singleQuote": true,
+	"trailingComma": "es5",
+	"semi": true,
+	"tabWidth": 2,
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": [
+				".prettierrc",
+				".eslintrc",
+				".huskyrc",
+				".lintstagedrc",
+				"*.json"
+			],
+			"options": {
+				"printWidth": 80,
+				"parser": "json"
+			}
+		}
+	]
+}
